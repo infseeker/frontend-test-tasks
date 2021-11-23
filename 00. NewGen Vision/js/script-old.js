@@ -54,6 +54,7 @@ class UserService {
 
 $('form #login').click(function() {
   // Вместо var лучше использовать const
+  // Если мы хотим получить значение поля, то нужно использовать $(selector).val(), в противном случае получим DOM-элемент
   var username = $('#username');
   var password = $('#password');
 
