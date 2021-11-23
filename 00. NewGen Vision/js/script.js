@@ -40,8 +40,7 @@ class UserService {
 
     return new Promise((resolve, reject) => {
       const xhr = new XMLHttpRequest();
-      const url = 'https://echo.htmlacademy.ru';
-      // const url = `https://examples.com/api/user/authenticate`;
+      const url = `https://examples.com/api/user/authenticate`;
       const params = `username=${username}&password=${password}`;
 
       xhr.open('POST', url, true);
