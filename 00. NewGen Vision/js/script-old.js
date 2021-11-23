@@ -5,7 +5,7 @@ class UserService {
   var password
 
   constructor(username, password) {
-    // При наличие геттеров, сеттеры не будут буду работать без явного объявления
+    // При наличие геттеров, сеттеры не будут работать без явного объявления
     this.username = username;
     this.password = password;
   }
