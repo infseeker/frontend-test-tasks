@@ -1,2 +1,2 @@
 # frontend-test-tasks
-Different test tasks for getting a job
+Different test tasks for getting a job.
